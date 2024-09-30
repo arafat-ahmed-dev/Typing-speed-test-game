@@ -167,6 +167,9 @@ blurPage.addEventListener("click",()=>{
         blurPage.parentElement.style.display ="none";
     }
 })
+window.addEventListener('scroll', function() {
+    window.scrollTo(0, 0);
+  });
 // option.forEach((e)=>{
 //     e.addEventListener("click", () => {
 //         if(e.textContent === "Uppercase"){
